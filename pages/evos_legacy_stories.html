@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVOS Academy & Stories - Perjalanan Menuju Juara</title>
+    <meta name="description" content="Temukan kisah inspiratif di balik kesuksesan EVOS. Dari perjalanan player hingga momen championship yang mengubah sejarah esports Indonesia." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fevoslearn1516back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-secondary-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-primary to-primary-700 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-primary">EVOS</h1>
+                        <p class="text-xs text-secondary-500 -mt-1">Academy</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage_evos_learning_hub.html" class="text-secondary-600 hover:text-primary transition-colors">Beranda</a>
+                    <a href="academy_dashboard.html" class="text-secondary-600 hover:text-primary transition-colors">Academy</a>
+                    <a href="meta_intelligence_center.html" class="text-secondary-600 hover:text-primary transition-colors">Meta Center</a>
+                    <a href="community_dojo.html" class="text-secondary-600 hover:text-primary transition-colors">Community</a>
+                    <a href="evos_legacy_stories.html" class="text-primary font-semibold">EVOS Stories</a>
+                    <a href="talent_gateway_opportunities.html" class="text-secondary-600 hover:text-primary transition-colors">Talent Gateway</a>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="academy_dashboard.html" class="btn-primary">Mulai Belajar</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2 rounded-lg hover:bg-secondary-100" onclick="toggleMobileMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-background border-t border-secondary-200">
+            <div class="px-4 py-4 space-y-3">
+                <a href="homepage_evos_learning_hub.html" class="block text-secondary-600">Beranda</a>
+                <a href="academy_dashboard.html" class="block text-secondary-600">Academy</a>
+                <a href="meta_intelligence_center.html" class="block text-secondary-600">Meta Center</a>
+                <a href="community_dojo.html" class="block text-secondary-600">Community</a>
+                <a href="evos_legacy_stories.html" class="block text-primary font-semibold">EVOS Stories</a>
+                <a href="talent_gateway_opportunities.html" class="block text-secondary-600">Talent Gateway</a>
+                <div class="pt-3 border-t border-secondary-200">
+                    <a href="academy_dashboard.html" class="btn-primary w-full text-center">Mulai Belajar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+        <!-- Background -->
+        <div class="absolute inset-0 z-0">
+            <div class="w-full h-full bg-gradient-to-br from-secondary-900 via-secondary-800 to-primary-900">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="EVOS Team Victory Moment" class="w-full h-full object-cover opacity-40" loading="lazy" onerror="this.src='https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/90 via-secondary-900/50 to-transparent"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-6">
+                <span class="inline-flex items-center px-4 py-2 bg-primary/20 text-primary-100 rounded-full text-sm font-medium backdrop-blur-sm">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    Kisah di Balik Juara
+                </span>
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                EVOS Legacy<br />
+                <span class="text-gradient-primary bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
+                    Stories of Champions
+                </span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-secondary-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Temukan kisah inspiratif di balik setiap kemenangan. Dari mimpi hingga menjadi realitas, 
+                inilah perjalanan yang membentuk legenda EVOS.
+            </p>
+
+            <!-- Navigation Pills -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button onclick="scrollToSection('founding')" class="bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
+                    <svg class="w-4 h-4 mr-2 inline" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                    </svg>
+                    Founding Story
+                </button>
+                <button onclick="scrollToSection('players')" class="bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
+                    <svg class="w-4 h-4 mr-2 inline" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                    </svg>
+                    Player Journeys
+                </button>
+                <button onclick="scrollToSection('championships')" class="bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
+                    <svg class="w-4 h-4 mr-2 inline" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    Championships
+                </button>
+                <button onclick="scrollToSection('culture')" class="bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
+                    <svg class="w-4 h-4 mr-2 inline" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                    Our Culture
+                </button>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="animate-bounce">
+                <svg class="w-6 h-6 text-white/60 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founding Story Section -->
+    <section id="founding" class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
+                    The Beginning of a Legend
+                </h2>
+                <p class="text-xl text-secondary-600 max-w-3xl mx-auto">
+                    Dari mimpi sederhana hingga menjadi organisasi esports terdepan di Indonesia. 
+                    Inilah kisah bagaimana EVOS lahir dan berkembang.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                <div class="order-2 lg:order-1">
+                    <div class="bg-white rounded-2xl p-8 shadow-soft">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-secondary-900">2017 - The Foundation</h3>
+                                <p class="text-secondary-600">Awal Mula Perjalanan</p>
+                            </div>
+                        </div>
+                        <p class="text-secondary-700 leading-relaxed mb-6">
+                            EVOS didirikan dengan visi sederhana namun ambisius: menciptakan ekosistem esports 
+                            yang tidak hanya fokus pada kemenangan, tetapi juga pada pengembangan talenta dan 
+                            komunitas gaming Indonesia. Dimulai dari sekelompok gamer passionate yang percaya 
+                            bahwa esports bisa menjadi lebih dari sekadar hobi.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-success-500 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Pembentukan tim pertama Mobile Legends</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-success-500 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Rekrutmen player berbakat dari seluruh Indonesia</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-success-500 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Visi jangka panjang untuk esports education</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <div class="relative">
+                        <img src="https://cdn.oneesports.id/cdn-data/wp-content/uploads/sites/2/2019/11/M1_MLBB_21.jpg" alt="EVOS Early Days" class="w-full h-96 object-cover rounded-2xl shadow-lg" onerror="this.src='https://images.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_1280.jpg'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/50 to-transparent rounded-2xl"></div>
+                        <div class="absolute bottom-6 left-6 text-white">
+                            <p class="text-sm font-medium">2017</p>
+                            <p class="text-lg font-bold">The Beginning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="relative">
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-secondary-200"></div>
+                
+                <!-- Timeline Item 1 -->
+                <div class="relative flex items-center mb-12">
+                    <div class="flex-1 pr-8 text-right">
+                        <div class="bg-white rounded-lg p-6 shadow-soft">
+                            <h4 class="text-lg font-bold text-secondary-900 mb-2">2018 - First Major Victory</h4>
+                            <p class="text-secondary-600">
+                                Kemenangan pertama di turnamen nasional yang membuktikan bahwa EVOS 
+                                bukan sekadar tim biasa, tetapi calon juara masa depan.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center relative z-10">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="flex-1 pl-8"></div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="relative flex items-center mb-12">
+                    <div class="flex-1 pr-8"></div>
+                    <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center relative z-10">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                        </svg>
+                    </div>
+                    <div class="flex-1 pl-8">
+                        <div class="bg-white rounded-lg p-6 shadow-soft">
+                            <h4 class="text-lg font-bold text-secondary-900 mb-2">2019 - Team Expansion</h4>
+                            <p class="text-secondary-600">
+                                Ekspansi ke berbagai game dan pembentukan academy system untuk 
+                                mengembangkan talenta muda Indonesia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="relative flex items-center mb-12">
+                    <div class="flex-1 pr-8 text-right">
+                        <div class="bg-white rounded-lg p-6 shadow-soft">
+                            <h4 class="text-lg font-bold text-secondary-900 mb-2">2020-2023 - Championship Era</h4>
+                            <p class="text-secondary-600">
+                                Era keemasan dengan multiple championship wins dan pengakuan 
+                                sebagai organisasi esports terdepan di Asia Tenggara.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 bg-warning-500 rounded-full flex items-center justify-center relative z-10">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="flex-1 pl-8"></div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="relative flex items-center">
+                    <div class="flex-1 pr-8"></div>
+                    <div class="w-12 h-12 bg-success-500 rounded-full flex items-center justify-center relative z-10">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <div class="flex-1 pl-8">
+                        <div class="bg-white rounded-lg p-6 shadow-soft">
+                            <h4 class="text-lg font-bold text-secondary-900 mb-2">2024-2025 - Learning Hub Era</h4>
+                            <p class="text-secondary-600">
+                                Peluncuran EVOS Learning Hub sebagai platform edukasi esports 
+                                pertama di Indonesia, democratizing professional gaming knowledge.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Player Journeys Section -->
+    <section id="players" class="py-20 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
+                    Player Journeys: From Dreams to Glory
+                </h2>
+                <p class="text-xl text-secondary-600 max-w-3xl mx-auto">
+                    Setiap champion memiliki cerita unik. Dari struggle hingga breakthrough, 
+                    inilah perjalanan inspiratif para legend EVOS.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Player Story 1 - Lemon -->
+                <div class="card card-hover group">
+                    <div class="relative mb-6">
+                        <img src="https://dailyspin.id/wp-content/uploads/2021/03/Evos-Wann.jpg" alt="Wann" class="w-full h-48 object-cover rounded-lg" onerror="this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                        <div class="absolute top-4 right-4 bg-primary px-3 py-1 rounded-full">
+                            <span class="text-white text-sm font-medium">Best Harith</span>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary-900 mb-2">Wann</h3>
+                    <p class="text-secondary-600 text-sm mb-4">Jungler</p>
+                    <p class="text-secondary-700 mb-6 leading-relaxed">
+                      "Jungle bukan cuma soal farming, tapi soal reading the game. 
+                        Setiap decision di early game bisa menentukan fate tim di late game. 
+                        That's the beauty of competitive ML."
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-secondary-600 text-sm">Career Highlights:</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-warning-500 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                            <span class="text-secondary-700 text-sm">Best Hartih M1 World Championship</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-success-500 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                            <span class="text-secondary-700 text-sm">M1 World Champion</span>
+                        </div>
+                    </div>
+                    <button onclick="openPlayerModal('lemon')" class="btn-primary w-full mt-6">
+                        Baca Full Story
+                    </button>
+                </div>
+
+                <!-- Player Story 2 - Antimage -->
+                <div class="card card-hover group">
+                    <div class="relative mb-6">
+                        <img src="https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/03/03/Foto-Oura-pada-saat-bertanding-di-turnamen-dunia-M-World-1-M1-2317669121.jpg" alt="Oura" class="w-full h-48 object-cover rounded-lg" onerror="this.src='hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLH1hUe_dCOJYxtFPj_OSXLbZLV4HDOBIAg&s'; this.onerror=null;" />
+                        <div class="absolute top-4 right-4 bg-accent px-3 py-1 rounded-full">
+                            <span class="text-white text-sm font-medium">MVP M1</span>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary-900 mb-2">Oura</h3>
+                    <p class="text-secondary-600 text-sm mb-4">Explane</p>
+                    <p class="text-secondary-700 mb-6 leading-relaxed">
+                        "Dari player casual yang main di warnet, sekarang jadi MVP M1. 
+                        Journey ini mengajarkan bahwa dengan dedikasi dan mindset yang benar, 
+                        semua mimpi bisa tercapai."
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-secondary-600 text-sm">Career Highlights:</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-accent mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                            <span class="text-secondary-700 text-sm">MVP M1 World Champion</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                            <span class="text-secondary-700 text-sm">M1 World Champion</span>
+                        </div>
+                    </div>
+                    <button onclick="openPlayerModal('Antimage EVOS')" class="btn-accent w-full mt-6">
+                        Baca Full Story
+                    </button>
+                </div>
+
+                <!-- Player Story 3 - Ferxiic -->
+                <div class="card card-hover group">
+                    <div class="relative mb-6">
+                        <img src="https://www.ligagame.tv/templates/yootheme/cache/luminaire_ceea0-39e6a017.jpeg" alt="Ferxiic EVOS" class="w-full h-48 object-cover rounded-lg" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;" />
+                        <div class="absolute top-4 right-4 bg-success-500 px-3 py-1 rounded-full">
+                            <span class="text-white text-sm font-medium">Best Support</span>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary-900 mb-2">Luminaire</h3>
+                    <p class="text-secondary-600 text-sm mb-4">Support</p>
+                    <p class="text-secondary-700 mb-6 leading-relaxed">
+                        "Support bukan cuma heal dan protect. Kita yang set up play, 
+                        yang baca rotasi lawan, yang jadi mata dan telinga tim. 
+                        Behind every great carry, there's a great support."
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-secondary-600 text-sm">Career Highlights:</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-success-500 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                            <span class="text-secondary-700 text-sm">M1 Worlds Best Support</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                            <span class="text-secondary-700 text-sm">M1 World Champions</span>
+                        </div>
+                    </div>
+                    <button onclick="openPlayerModal('ferxiic')" class="bg-success-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-success-600 transition-colors w-full mt-6">
+                        Baca Full Story
+                    </button>
+                </div>
+            </div>
+
+            <!-- Behind the Scenes -->
+            <div class="bg-gradient-to-r from-secondary-50 to-primary-50 rounded-2xl p-8 md:p-12">
+                <div class="text-center mb-12">
+                    <h3 class="text-2xl md:text-3xl font-bold text-secondary-900 mb-4">
+                        Behind the Scenes: Life as EVOS Player
+                    </h3>
+                    <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                        Lihat kehidupan sehari-hari para champion. Dari training routine hingga 
+                        mental preparation sebelum match besar.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Training Routine -->
+                    <div class="bg-white rounded-xl p-6 shadow-soft">
+                        <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-bold text-secondary-900 mb-3">Daily Training</h4>
+                        <p class="text-secondary-600 mb-4">
+                            8-10 jam training setiap hari dengan fokus pada individual skill, 
+                            team coordination, dan meta analysis.
+                        </p>
+                        <ul class="space-y-2 text-sm text-secondary-700">
+                            <li>• 06:00 - Physical warm-up</li>
+                            <li>• 07:00 - Individual practice</li>
+                            <li>• 10:00 - Team scrimmage</li>
+                            <li>• 14:00 - Replay analysis</li>
+                            <li>• 16:00 - Strategy discussion</li>
+                        </ul>
+                    </div>
+
+                    <!-- Mental Preparation -->
+                    <div class="bg-white rounded-xl p-6 shadow-soft">
+                        <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-bold text-secondary-900 mb-3">Mental Coaching</h4>
+                        <p class="text-secondary-600 mb-4">
+                            Sports psychology sessions untuk handling pressure, 
+                            maintaining focus, dan building team chemistry.
+                        </p>
+                        <ul class="space-y-2 text-sm text-secondary-700">
+                            <li>• Meditation & mindfulness</li>
+                            <li>• Pressure simulation</li>
+                            <li>• Team bonding activities</li>
+                            <li>• Confidence building</li>
+                            <li>• Stress management</li>
+                        </ul>
+                    </div>
+
+                    <!-- Lifestyle Balance -->
+                    <div class="bg-white rounded-xl p-6 shadow-soft">
+                        <div class="w-12 h-12 bg-success-500 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-bold text-secondary-900 mb-3">Work-Life Balance</h4>
+                        <p class="text-secondary-600 mb-4">
+                            Menjaga keseimbangan antara competitive gaming dengan 
+                            kehidupan personal dan social activities.
+                        </p>
+                        <ul class="space-y-2 text-sm text-secondary-700">
+                            <li>• Family time priority</li>
+                            <li>• Regular exercise routine</li>
+                            <li>• Healthy diet program</li>
+                            <li>• Social media management</li>
+                            <li>• Personal hobbies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Championship Moments Section -->
+    <section id="championships" class="py-20 bg-secondary-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Championship Moments That Made History
+                </h2>
+                <p class="text-xl text-secondary-300 max-w-3xl mx-auto">
+                    Setiap kemenangan memiliki cerita. Dari comeback epic hingga strategic masterpiece, 
+                    inilah momen-momen yang mengukir nama EVOS dalam sejarah esports.
+                </p>
+            </div>
+
+            <!-- Featured Championship -->
+            <div class="bg-gradient-to-r from-primary-900/50 to-accent-900/50 rounded-2xl p-8 md:p-12 mb-16 backdrop-blur-sm border border-white/10">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="flex items-center mb-6">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mr-4">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl md:text-3xl font-bold">MPL Indonesia Season 12</h3>
+                                <p class="text-primary-200">Grand Finals Victory</p>
+                            </div>
+                        </div>
+                        <p class="text-lg text-secondary-200 mb-6 leading-relaxed">
+                            "Moment yang paling berkesan adalah ketika kami berhasil comeback dari 0-2 
+                            di Grand Finals. Itu bukan cuma soal skill, tapi soal mental strength dan 
+                            trust antar player. That's when we truly became champions."
+                        </p>
+                        <div class="grid grid-cols-2 gap-6 mb-8">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-primary-400 mb-2">4-2</div>
+                                <div class="text-secondary-300 text-sm">Final Score</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-accent-400 mb-2">7-0</div>
+                                <div class="text-secondary-300 text-sm">Playoff Record</div>
+                            </div>
+                        </div>
+                        <button onclick="playChampionshipVideo('mpl-s12')" class="btn-primary">
+                            <svg class="w-5 h-5 mr-2 inline" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                            Watch Championship Highlights
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="MPL S12 Championship" class="w-full h-80 object-cover rounded-xl" onerror="this.src='https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/80 to-transparent rounded-xl"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <p class="text-white font-bold text-lg">December 2024</p>
+                            <p class="text-secondary-300">Jakarta, Indonesia</p>
+                        </div>
+                        <button onclick="playChampionshipVideo('mpl-s12')" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                            <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Championship Gallery -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- MSC 2023 -->
+                <div class="bg-secondary-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1556438064-2d7646166914?q=80&w=400&auto=format&fit=crop" alt="MSC 2023 Victory" class="w-full h-48 object-cover" onerror="this.src='https://images.pixabay.com/photo/2020/05/25/17/21/link-5219567_1280.jpg'; this.onerror=null;" />
+                        <div class="absolute top-4 left-4 bg-warning-500 px-3 py-1 rounded-full">
+                            <span class="text-white text-sm font-medium">Champion</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-white mb-2">MSC 2023</h4>
+                        <p class="text-secondary-300 mb-4">
+                            Dominasi regional dengan strategic innovation yang mengubah meta 
+                            dan membuktikan superioritas EVOS di Asia Tenggara.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-warning-400 font-semibold">June 2023</span>
+                            <button onclick="playChampionshipVideo('msc-2023')" class="text-accent-400 hover:text-accent-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- M5 World Championship -->
+                <div class="bg-secondary-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=400&auto=format&fit=crop" alt="M5 World Championship" class="w-full h-48 object-cover" onerror="this.src='https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                        <div class="absolute top-4 left-4 bg-accent px-3 py-1 rounded-full">
+                            <span class="text-white text-sm font-medium">Runner-up</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-white mb-2">M5 World Championship</h4>
+                        <p class="text-secondary-300 mb-4">
+                            Representasi terbaik Indonesia di panggung dunia. 
+                            Meskipun runner-up, performa memukau yang diakui global.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-accent-400 font-semibold">December 2023</span>
+                            <button onclick="playChampionshipVideo('m5-worlds')" class="text-accent-400 hover:text-accent-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MPL Indonesia S11 -->
+                <div class="bg-secondary-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=400&auto=format&fit=crop" alt="MPL S11 Victory" class="w-full h-48 object-cover" onerror="this.src='https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                        <div class="absolute top-4 left-4 bg-primary px-3 py-1 rounded-full">
+                            <span class="text-white text-sm font-medium">Champion</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-white mb-2">MPL Indonesia S11</h4>
+                        <p class="text-secondary-300 mb-4">
+                            Back-to-back championship yang membuktikan konsistensi 
+                            dan adaptability EVOS dalam berbagai meta.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-primary-400 font-semibold">August 2024</span>
+                            <button onclick="playChampionshipVideo('mpl-s11')" class="text-accent-400 hover:text-accent-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategic Innovations -->
+            <div class="mt-16 bg-gradient-to-r from-accent-900/30 to-primary-900/30 rounded-2xl p-8 backdrop-blur-sm border border-white/10">
+                <h3 class="text-2xl font-bold text-center mb-8">Strategic Innovations That Changed the Meta</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-2">Jungle Invade Meta</h4>
+                        <p class="text-secondary-300 text-sm">
+                            EVOS pioneered aggressive early game jungle invades yang kemudian 
+                            diadopsi tim-tim internasional.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-2">Tank-Support Synergy</h4>
+                        <p class="text-secondary-300 text-sm">
+                            Kombinasi tank-support yang revolusioner dengan timing perfect 
+                            untuk team fight initiation.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-warning-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-2">Adaptive Draft Strategy</h4>
+                        <p class="text-secondary-300 text-sm">
+                            Flexibility dalam draft phase yang memungkinkan adaptasi 
+                            real-time terhadap strategy lawan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture & Values Section -->
+    <section id="culture" class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
+                    EVOS Culture: More Than Just Winning
+                </h2>
+                <p class="text-xl text-secondary-600 max-w-3xl mx-auto">
+                    Nilai-nilai yang membentuk EVOS bukan hanya tentang menjadi yang terbaik di game, 
+                    tetapi juga tentang memberikan impact positif bagi komunitas dan industri esports.
+                </p>
+            </div>
+
+            <!-- Core Values -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <!-- Excellence -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-primary to-primary-700 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary-900 mb-3">Excellence</h3>
+                    <p class="text-secondary-600 leading-relaxed">
+                        Komitmen untuk selalu memberikan performa terbaik, tidak hanya dalam kompetisi 
+                        tetapi juga dalam setiap aspek organisasi.
+                    </p>
+                </div>
+
+                <!-- Growth Mindset -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-accent to-accent-700 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary-900 mb-3">Growth Mindset</h3>
+                    <p class="text-secondary-600 leading-relaxed">
+                        Percaya bahwa setiap kekalahan adalah pembelajaran, setiap challenge adalah 
+                        opportunity untuk berkembang lebih baik.
+                    </p>
+                </div>
+
+                <!-- Community First -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-success-500 to-success-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary-900 mb-3">Community First</h3>
+                    <p class="text-secondary-600 leading-relaxed">
+                        Kesuksesan EVOS adalah kesuksesan komunitas. Kami berkomitmen untuk 
+                        memberikan kembali dan mengangkat ekosistem esports Indonesia.
+                    </p>
+                </div>
+
+                <!-- Integrity -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-warning-500 to-warning-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary-900 mb-3">Integrity</h3>
+                    <p class="text-secondary-600 leading-relaxed">
+                        Bermain dengan fair play, menghormati lawan, dan menjadi role model 
+                        positif bagi generasi esports masa depan.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Community Initiatives -->
+            <div class="bg-white rounded-2xl p-8 md:p-12 shadow-soft mb-16">
+                <h3 class="text-2xl md:text-3xl font-bold text-secondary-900 mb-8 text-center">
+                    Community Impact Initiatives
+                </h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Education Program -->
+                    <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=400&auto=format&fit=crop" alt="EVOS Education Program" class="w-full h-48 object-cover rounded-lg mb-4" onerror="this.src='https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                        <h4 class="text-lg font-bold text-secondary-900 mb-2">EVOS Academy Program</h4>
+                        <p class="text-secondary-600 text-sm">
+                            Program beasiswa untuk talenta muda Indonesia dengan fokus pada 
+                            pengembangan skill gaming dan soft skills.
+                        </p>
+                    </div>
+
+                    <!-- Charity Events -->
+                    <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=400&auto=format&fit=crop" alt="EVOS Charity Events" class="w-full h-48 object-cover rounded-lg mb-4" onerror="this.src='https://images.pixabay.com/photo/2017/05/15/23/40/charity-2316715_1280.jpg'; this.onerror=null;" />
+                        <h4 class="text-lg font-bold text-secondary-900 mb-2">Charity Tournaments</h4>
+                        <p class="text-secondary-600 text-sm">
+                            Tournament amal rutin dengan proceeds untuk pendidikan anak-anak 
+                            kurang mampu dan disaster relief efforts.
+                        </p>
+                    </div>
+
+                    <!-- Mentorship -->
+                    <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=400&auto=format&fit=crop" alt="EVOS Mentorship Program" class="w-full h-48 object-cover rounded-lg mb-4" onerror="this.src='https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                        <h4 class="text-lg font-bold text-secondary-900 mb-2">Player Mentorship</h4>
+                        <p class="text-secondary-600 text-sm">
+                            Program mentoring dimana EVOS players memberikan guidance 
+                            langsung kepada aspiring pro players.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Philosophy -->
+            <div class="bg-gradient-to-r from-primary-50 to-accent-50 rounded-2xl p-8 md:p-12">
+                <div class="text-center mb-12">
+                    <h3 class="text-2xl md:text-3xl font-bold text-secondary-900 mb-4">
+                        "We Don't Just Play to Win, We Play to Inspire"
+                    </h3>
+                    <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                        Philosophy EVOS yang menjadi foundation dari setiap decision dan action. 
+                        Kemenangan adalah bonus, impact adalah tujuan utama.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <blockquote class="text-lg text-secondary-700 italic mb-6 leading-relaxed">
+                            "Setiap kali kami naik ke stage, kami tidak hanya represent diri sendiri, 
+                            tapi juga represent mimpi jutaan gamer Indonesia. That responsibility 
+                            drives us to be better every single day."
+                        </blockquote>
+                        <div class="flex items-center">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=60&auto=format&fit=crop" alt="EVOS Coach" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=60'; this.onerror=null;" />
+                            <div>
+                                <p class="font-semibold text-secondary-900">Coach Zeys</p>
+                                <p class="text-secondary-600 text-sm">Head Coach EVOS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">50K+</div>
+                            <div class="text-secondary-600 text-sm">Students Mentored</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-accent mb-2">100+</div>
+                            <div class="text-secondary-600 text-sm">Community Events</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-success-500 mb-2">2B+</div>
+                            <div class="text-secondary-600 text-sm">Rupiah for Charity</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-warning-500 mb-2">25+</div>
+                            <div class="text-secondary-600 text-sm">Scholarship Recipients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="py-20 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
+                    Moments That Matter
+                </h2>
+                <p class="text-xl text-secondary-600 max-w-3xl mx-auto">
+                    Koleksi foto candid yang menangkap essence dari EVOS family. 
+                    Dari training sessions hingga celebration moments.
+                </p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
+                <!-- Gallery Item 1 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(0)">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=400&auto=format&fit=crop" alt="EVOS Team Victory" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Victory Celebration
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(1)">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=400&auto=format&fit=crop" alt="EVOS Training Session" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_1280.jpg'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Training Session
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(2)">
+                    <img src="https://images.unsplash.com/photo-1556438064-2d7646166914?q=80&w=400&auto=format&fit=crop" alt="EVOS Team Bonding" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pixabay.com/photo/2020/05/25/17/21/link-5219567_1280.jpg'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Team Bonding
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(3)">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=400&auto=format&fit=crop" alt="EVOS Fan Meet" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Fan Meet & Greet
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(4)">
+                    <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=400&auto=format&fit=crop" alt="EVOS Behind Scenes" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Behind the Scenes
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(5)">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=400&auto=format&fit=crop" alt="EVOS Community Event" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Community Event
+                    </div>
+                </div>
+
+                <!-- Gallery Item 7 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(6)">
+                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=400&auto=format&fit=crop" alt="EVOS Charity Work" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pixabay.com/photo/2017/05/15/23/40/charity-2316715_1280.jpg'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Charity Work
+                    </div>
+                </div>
+
+                <!-- Gallery Item 8 -->
+                <div class="relative group cursor-pointer" onclick="openGallery(7)">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=400&auto=format&fit=crop" alt="EVOS Mentorship" class="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105" onerror="this.src='https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-all duration-300 rounded-lg"></div>
+                    <div class="absolute bottom-2 left-2 bg-black/50 text-white px-2 py-1 rounded text-xs">
+                        Mentorship Session
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Sharing -->
+            <div class="text-center">
+                <p class="text-secondary-600 mb-6">Share your favorite EVOS moments</p>
+                <div class="flex justify-center space-x-4">
+                    <button onclick="shareToSocial('twitter')" class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center hover:bg-accent-600 transition-colors">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                        </svg>
+                    </button>
+                    <button onclick="shareToSocial('instagram')" class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center hover:bg-primary-700 transition-colors">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </button>
+                    <button onclick="shareToSocial('facebook')" class="w-12 h-12 bg-secondary-600 rounded-lg flex items-center justify-center hover:bg-secondary-700 transition-colors">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-primary to-primary-700 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">
+                Ready to Write Your Own Legend?
+            </h2>
+            <p class="text-xl md:text-2xl text-primary-100 mb-8 leading-relaxed">
+                Setiap champion memulai journey mereka dari mimpi. Bergabunglah dengan EVOS Learning Hub 
+                dan mulai tulis cerita kamu sendiri.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                <a href="academy_dashboard.html" class="bg-white text-primary font-semibold px-8 py-4 rounded-lg hover:bg-primary-50 transition-all duration-300 w-full sm:w-auto">
+                    <svg class="w-5 h-5 mr-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                    Start Your Journey
+                </a>
+                <a href="community_dojo.html" class="bg-transparent border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-primary transition-all duration-300 w-full sm:w-auto">
+                    <svg class="w-5 h-5 mr-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                    </svg>
+                    Join Community
+                </a>
+            </div>
+
+            <div class="flex items-center justify-center space-x-8 text-primary-200">
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Learn from Champions</span>
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Proven Methods</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-br from-primary to-primary-700 rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-primary">EVOS</h3>
+                            <p class="text-xs text-secondary-400 -mt-1">Learning Hub</p>
+                        </div>
+                    </div>
+                    <p class="text-secondary-300 mb-6">
+                        Platform pembelajaran esports terdepan di Indonesia. 
+                        Transformasi skill Mobile Legends dengan metode champion.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-secondary-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-secondary-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-secondary-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Learning -->
+                <div>
+                    <h4 class="font-semibold text-white mb-6">Learning</h4>
+                    <ul class="space-y-4">
+                        <li><a href="academy_dashboard.html" class="text-secondary-300 hover:text-white transition-colors">Academy Dashboard</a></li>
+                        <li><a href="meta_intelligence_center.html" class="text-secondary-300 hover:text-white transition-colors">Meta Intelligence</a></li>
+                        <li><a href="evos_legacy_stories.html" class="text-secondary-300 hover:text-white transition-colors">EVOS Masterclass</a></li>
+                        <li><a href="javascript:void(0)" class="text-secondary-300 hover:text-white transition-colors">Bootcamp Programs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Community -->
+                <div>
+                    <h4 class="font-semibold text-white mb-6">Community</h4>
+                    <ul class="space-y-4">
+                        <li><a href="community_dojo.html" class="text-secondary-300 hover:text-white transition-colors">Community Dojo</a></li>
+                        <li><a href="javascript:void(0)" class="text-secondary-300 hover:text-white transition-colors">Study Groups</a></li>
+                        <li><a href="javascript:void(0)" class="text-secondary-300 hover:text-white transition-colors">Tournaments</a></li>
+                        <li><a href="javascript:void(0)" class="text-secondary-300 hover:text-white transition-colors">Success Stories</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="font-semibold text-white mb-6">Support</h4>
+                    <ul class="space-y-4">
+                        <li><a href="talent_gateway_opportunities.html" class="text-secondary-300 hover:text-white transition-colors">Talent Gateway</a></li>
+                        <li><a href="javascript:void(0)" class="text-secondary-300 hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="javascript:void(0)" class="text-secondary-300 hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" class="text-secondary-300 hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-secondary-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-secondary-400 text-sm">
+                    © 2025 EVOS Learning Hub. All Rights Reserved.
+                </p>
+                <div class="flex items-center space-x-6 mt-4 md:mt-0">
+                    <a href="javascript:void(0)" class="text-secondary-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+                    <a href="javascript:void(0)" class="text-secondary-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+                    <a href="javascript:void(0)" class="text-secondary-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Player Modal -->
+    <div id="playerModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+                <div class="p-8">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 id="modalPlayerName" class="text-2xl font-bold text-secondary-900"></h3>
+                        <button onclick="closePlayerModal()" class="w-8 h-8 bg-secondary-100 rounded-full flex items-center justify-center hover:bg-secondary-200 transition-colors">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="modalPlayerContent" class="space-y-6">
+                        <!-- Content will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-sm">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="relative max-w-4xl w-full">
+                <button onclick="closeGallery()" class="absolute top-4 right-4 z-10 w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-colors">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+                <img id="galleryImage" src alt class="w-full h-auto rounded-lg" />
+                <div class="absolute bottom-4 left-4 bg-black/50 text-white px-4 py-2 rounded-lg">
+                    <p id="galleryCaption" class="font-medium"></p>
+                </div>
+                <!-- Navigation arrows -->
+                <button onclick="previousImage()" class="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-colors">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                <button onclick="nextImage()" class="absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-colors">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Smooth scroll to sections
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        // Player Modal Functions
+        const playerData = {
+            lemon: {
+                name: "Wann",
+                role: "Best Midlaner",
+                story: `
+                    <div class="space-y-6">
+                        <img src="https://dailyspin.id/wp-content/uploads/2021/03/Evos-Wann.jpg" 
+                             alt="Wann" 
+                             class="w-full h-64 object-cover rounded-lg"
+                             onerror="this.src='https://dailyspin.id/wp-content/uploads/2021/03/Evos-Wann.jpg'; this.onerror=null;">
+                        
+                        <div class="prose prose-lg">
+                            <h4 class="text-xl font-bold text-secondary-900 mb-4">From Warnet to World Stage</h4>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Dulu gue cuma player biasa yang main di warnet setelah sekolah. Gak pernah kepikiran 
+                                kalau suatu hari bisa jadi professional player, apalagi MVP MPL. Journey ini bener-bener 
+                                life-changing."
+                            </p>
+                            
+                            <h5 class="text-lg font-semibold text-secondary-900 mb-3">The Breakthrough Moment</h5>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Moment turning point gue adalah ketika pertama kali ikut tryout EVOS. Gue nervous banget, 
+                                tapi coach bilang gue punya potential. Dari situ gue mulai serius latihan 8-10 jam setiap hari."
+                            </p>
+                            
+                            <h5 class="text-lg font-semibold text-secondary-900 mb-3">Leadership Philosophy</h5>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Jadi captain bukan cuma soal skill, tapi soal gimana lu bisa bring out the best dari setiap 
+                                teammate. Setiap player punya strength masing-masing, tugas gue adalah orchestrate semua itu 
+                                jadi satu kesatuan yang solid."
+                            </p>
+                            
+                            <div class="bg-primary-50 p-4 rounded-lg">
+                                <h5 class="text-lg font-semibold text-primary-700 mb-2">Career Highlights</h5>
+                                <ul class="space-y-2 text-secondary-700">
+                                    <li>• M1 World Champions</li>
+                                    <li>• 2x MPL Indonesia Champion</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            antimage: {
+                name: "Oura",
+                role: "Explaner",
+                story: `
+                    <div class="space-y-6">
+                        <img src="https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/03/03/Foto-Oura-pada-saat-bertanding-di-turnamen-dunia-M-World-1-M1-2317669121.jpg" 
+                             alt="Oura" 
+                             class="w-full h-64 object-cover rounded-lg"
+                             onerror="this.src='https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/03/03/Foto-Oura-pada-saat-bertanding-di-turnamen-dunia-M-World-1-M1-2317669121.jpg'; this.onerror=null;">
+                        
+                        <div class="prose prose-lg">
+                            <h4 class="text-xl font-bold text-secondary-900 mb-4">The Strategic Mastermind</h4>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Explane adalah posisi yang paling complex di Mobile Legends. Lu harus constantly think 
+                                3-4 steps ahead, predict enemy movement, dan coordinate dengan semua lane. It's like 
+                                playing chess while fighting."
+                            </p>
+                            
+                            <h5 class="text-lg font-semibold text-secondary-900 mb-3">Innovation in Jungle Meta</h5>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Gue selalu coba experiment dengan Explane path yang unconventional. Sometimes the best 
+                                strategy adalah yang unexpected. That's how we developed our signature early game 
+                                aggression style."
+                            </p>
+                            
+                            <h5 class="text-lg font-semibold text-secondary-900 mb-3">Mental Game</h5>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Pressure di jungle itu real. Satu mistake bisa cost the entire game. Tapi that's what 
+                                makes it exciting. Gue thrives under pressure, dan itu yang bikin gue bisa perform di 
+                                big matches."
+                            </p>
+                            
+                            <div class="bg-accent-50 p-4 rounded-lg">
+                                <h5 class="text-lg font-semibold text-accent-700 mb-2">Signature Achievements</h5>
+                                <ul class="space-y-2 text-secondary-700">
+                                    <li>• MVP M1 World Championship</li>
+                                    <li>• M1 World Championship</li>
+                                    <li>• 1x MPL Indonesia Champion</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            ferxiic: {
+                name:"Luminaire",
+                role: "Support",
+                story: `
+                    <div class="space-y-6">
+                        <img src="https://www.ligagame.tv/templates/yootheme/cache/luminaire_ceea0-39e6a017.jpeg" 
+                             alt="Luminaire" 
+                             class="w-full h-64 object-cover rounded-lg"
+                             onerror="this.src='https://www.ligagame.tv/templates/yootheme/cache/luminaire_ceea0-39e6a017.jpeg'; this.onerror=null;">
+                        
+                        <div class="prose prose-lg">
+                            <h4 class="text-xl font-bold text-secondary-900 mb-4">The Unsung Hero</h4>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Support is the most underrated role, but also the most impactful. Gue yang set up 
+                                plays, yang protect team, yang jadi shot caller di crucial moments. Behind every great 
+                                carry, there's a great support."
+                            </p>
+                            
+                            <h5 class="text-lg font-semibold text-secondary-900 mb-3">Vision and Map Control</h5>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Map awareness adalah everything. Gue constantly communicate enemy positions, predict 
+                                their rotations, dan coordinate our team movements. It's like being the eyes and ears 
+                                of the team."
+                            </p>
+                            
+                            <h5 class="text-lg font-semibold text-secondary-900 mb-3">Clutch Performances</h5>
+                            <p class="text-secondary-700 leading-relaxed mb-4">
+                                "Some of my best memories adalah clutch saves di crucial team fights. That feeling 
+                                when you perfectly time your ultimate to save your carry atau set up a game-winning 
+                                play - that's what I live for."
+                            </p>
+                            
+                            <div class="bg-success-50 p-4 rounded-lg">
+                                <h5 class="text-lg font-semibold text-success-700 mb-2">Recognition & Awards</h5>
+                                <ul class="space-y-2 text-secondary-700">
+                                    <li>• M1 World Championship Best Support</li>
+                                    <li>• M1 World Champions</li>
+                                    <li>• 2x MPL Indonesia Champion</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                `
+            }
+        };
+
+        function openPlayerModal(playerId) {
+            const modal = document.getElementById('playerModal');
+            const playerName = document.getElementById('modalPlayerName');
+            const playerContent = document.getElementById('modalPlayerContent');
+            
+            const player = playerData[playerId];
+            if (player) {
+                playerName.textContent = player.name;
+                playerContent.innerHTML = player.story;
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closePlayerModal() {
+            const modal = document.getElementById('playerModal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Gallery Functions
+        const galleryImages = [
+            {
+                src: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
+                caption: 'EVOS Team Victory Celebration - MPL Indonesia Season 12 Championship'
+            },
+            {
+                src: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_1280.jpg',
+                caption: 'Intensive Training Session - Daily 8-hour practice routine'
+            },
+            {
+                src: 'https://images.unsplash.com/photo-1556438064-2d7646166914?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pixabay.com/photo/2020/05/25/17/21/link-5219567_1280.jpg',
+                caption: 'Team Bonding Activity - Building chemistry outside the game'
+            },
+            {
+                src: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=800',
+                caption: 'Fan Meet & Greet - Connecting with the EVOS community'
+            },
+            {
+                src: 'https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=800',
+                caption: 'Behind the Scenes - Preparation before major tournament'
+            },
+            {
+                src: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=800',
+                caption: 'Community Event - EVOS Academy graduation ceremony'
+            },
+            {
+                src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pixabay.com/photo/2017/05/15/23/40/charity-2316715_1280.jpg',
+                caption: 'Charity Work - Giving back to the community through education'
+            },
+            {
+                src: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop',
+                fallback: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
+                caption: 'Mentorship Session - EVOS players coaching aspiring talents'
+            }
+        ];
+
+        let currentImageIndex = 0;
+
+        function openGallery(index) {
+            currentImageIndex = index;
+            const modal = document.getElementById('galleryModal');
+            const image = document.getElementById('galleryImage');
+            const caption = document.getElementById('galleryCaption');
+            
+            const imageData = galleryImages[index];
+            image.src = imageData.src;
+            image.onerror = function() {
+                this.src = imageData.fallback;
+                this.onerror = null;
+            };
+            caption.textContent = imageData.caption;
+            
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeGallery() {
+            const modal = document.getElementById('galleryModal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function previousImage() {
+            currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+            openGallery(currentImageIndex);
+        }
+
+        function nextImage() {
+            currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+            openGallery(currentImageIndex);
+        }
+
+        // Championship Video Functions
+        function playChampionshipVideo(videoId) {
+            // In a real implementation, this would open a video player
+            alert(`Playing ${videoId} championship highlights! Video player akan segera tersedia.`);
+        }
+
+        // Social Sharing Functions
+        function shareToSocial(platform) {
+            const url = encodeURIComponent(window.location.href);
+            const text = encodeURIComponent('Check out these amazing EVOS Legacy stories! #EVOS #MobileLegends #Esports');
+            
+            let shareUrl = '';
+            switch(platform) {
+                case 'twitter':
+                    shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+                    break;
+                case 'facebook':
+                    shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+                    break;
+                case 'instagram':
+                    // Instagram doesn't support direct URL sharing, so we'll copy to clipboard
+                    navigator.clipboard.writeText(window.location.href);
+                    alert('Link copied to clipboard! Share it on your Instagram story.');
+                    return;
+            }
+            
+            if (shareUrl) {
+                window.open(shareUrl, '_blank', 'width=600,height=400');
+            }
+        }
+
+        // Close modals when clicking outside
+        document.addEventListener('click', function(e) {
+            const playerModal = document.getElementById('playerModal');
+            const galleryModal = document.getElementById('galleryModal');
+            
+            if (e.target === playerModal) {
+                closePlayerModal();
+            }
+            if (e.target === galleryModal) {
+                closeGallery();
+            }
+        });
+
+        // Keyboard navigation for gallery
+        document.addEventListener('keydown', function(e) {
+            const galleryModal = document.getElementById('galleryModal');
+            if (!galleryModal.classList.contains('hidden')) {
+                if (e.key === 'ArrowLeft') {
+                    previousImage();
+                } else if (e.key === 'ArrowRight') {
+                    nextImage();
+                } else if (e.key === 'Escape') {
+                    closeGallery();
+                }
+            }
+            
+            const playerModal = document.getElementById('playerModal');
+            if (!playerModal.classList.contains('hidden') && e.key === 'Escape') {
+                closePlayerModal();
+            }
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
